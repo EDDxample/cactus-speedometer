@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "eddxample.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CactusBlockMixin",
+    "ServerTickMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

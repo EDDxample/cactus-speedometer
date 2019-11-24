@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1, 
+    "id": "cactus-speedometer", 
+    "version": "${version}", 
+    "name": "Cactus Speedometer", 
+    "description": "Counts cactus' grow attempts!", 
+    "authors": ["EDDxample"], 
+    "contact": {
+        "homepage": "https://fabricmc.net/", 
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    }, 
+    "license": "MIT", 
+    "icon": "assets/cactus-speedometer/icon.png", 
+    "environment": "*", 
+    "entrypoints": {
+        "main": []
+    }, 
+    "mixins": [
+        "cactus-speedometer.mixins.json"
+    ], 
+    "depends": {
+        "fabricloader": ">=0.4.0"
+    }, 
+    "suggests": {
+        "flamingo": "*"
+    }
+}
